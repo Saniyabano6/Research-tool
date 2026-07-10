@@ -1,6 +1,13 @@
-pip uninstall langchain langchain-openai langchain-community langchain-text-splitters -y
-
-pip install langchain==0.3.26
-pip install langchain-openai==0.3.28
-pip install langchain-community==0.3.27
-pip install langchain-text-splitters==0.3.8
+streamlit
+langchain==0.3.26
+langchain-community==0.3.27
+langchain-text-splitters==0.3.8
+langchain-groq
+faiss-cpu
+python-dotenv
+pandas
+numpy
+tiktoken
+requests
+beautifulsoup4
+lxml
