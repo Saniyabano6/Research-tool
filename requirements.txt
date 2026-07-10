@@ -2,12 +2,11 @@ streamlit
 langchain==0.3.26
 langchain-community==0.3.27
 langchain-text-splitters==0.3.8
+langchain-huggingface
 langchain-groq
 faiss-cpu
+sentence-transformers
 python-dotenv
 pandas
 numpy
 tiktoken
-requests
-beautifulsoup4
-lxml
