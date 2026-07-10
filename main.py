@@ -15,7 +15,8 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 load_dotenv()  # take environment variables from .env (especially OPENAI_API_KEY)
 
 st.set_page_config(page_title="News Research Tool", page_icon="📈", layout="wide")
-
+with open("faiss_store_openai.pkl", "rb") as f:
+    vector_store = pickle.load(f)
 # ---------- UI Styling ----------
 st.markdown(
     """
